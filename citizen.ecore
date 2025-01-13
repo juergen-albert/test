@@ -4,6 +4,10 @@
   <eAnnotations source="Version">
     <details key="value" value="1.0"/>
   </eAnnotations>
+  <eAnnotations source="properties">
+    <details key="Rest" value="true"/>
+    <details key="repo.ref.target"/>
+  </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="AgeGroups">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Age" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         iD="true"/>
