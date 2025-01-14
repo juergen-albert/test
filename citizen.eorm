@@ -15,7 +15,7 @@
           name="gid">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/gid"/>
+            href="citizen.ecore#//Statbez/gid"/>
         <column
             insertable="true"
             name="gid"
@@ -30,7 +30,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/gid"/>
+            href="citizen.ecore#//Statbez/gid"/>
         <column
             insertable="true"
             name="gid"
@@ -45,7 +45,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/name"/>
+            href="citizen.ecore#//Statbez/name"/>
         <column
             insertable="true"
             name="statbez_name"
@@ -60,7 +60,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/geometry"/>
+            href="citizen.ecore#//Statbez/geometry"/>
         <column
             insertable="true"
             name="the_geom"
@@ -75,7 +75,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/uuid"/>
+            href="citizen.ecore#//Statbez/uuid"/>
         <column
             insertable="true"
             name="uuid"
@@ -90,7 +90,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/geojson"/>
+            href="citizen.ecore#//Statbez/geojson"/>
         <column
             insertable="true"
             name="geojson"
@@ -105,7 +105,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//statbez/plraum"/>
+            href="citizen.ecore#//Statbez/plraum"/>
         <column
             insertable="true"
             name="plraum"
@@ -115,7 +115,7 @@
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
-        href="citizen.ecore#//statbez"/>
+        href="citizen.ecore#//Statbez"/>
   </entity>
   <entity name="Town">
     <table name="TOWN"/>

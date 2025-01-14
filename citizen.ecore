@@ -33,7 +33,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="einwohner">
     <eStructuralFeatures xsi:type="ecore:EReference" name="JAHR" eType="#//Year" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="statbez" eType="#//statbez"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statbez" eType="#//Statbez"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="KER_GESCH" eType="#//gender"
         containment="true"/>
@@ -59,7 +59,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="geojson" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="town" eType="#//Town" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="statbez">
+  <eClassifiers xsi:type="ecore:EClass" name="Statbez">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="gid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         iD="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
