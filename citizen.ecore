@@ -33,7 +33,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="einwohner">
     <eStructuralFeatures xsi:type="ecore:EReference" name="JAHR" eType="#//Year" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="STATBEZ" eType="#//Statbez"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statbez" eType="#//Statbez"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="KER_GESCH" eType="#//gender"
         containment="true"/>
