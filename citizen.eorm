@@ -801,7 +801,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//einwohner/STATBEZ"/>
+            href="citizen.ecore#//einwohner/statbez"/>
         <cascade>
           <cascadeRemove/>
           <cascadeRefresh/>
