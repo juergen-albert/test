@@ -60,7 +60,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//Statbez/the_geom"/>
+            href="citizen.ecore#//Statbez/geometry"/>
         <column
             insertable="true"
             name="the_geom"
