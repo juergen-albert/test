@@ -590,7 +590,7 @@
           name="gid">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/gid"/>
+            href="citizen.ecore#//Planungsraum/gid"/>
         <column
             insertable="true"
             name="gid"
@@ -605,7 +605,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/gid"/>
+            href="citizen.ecore#//Planungsraum/gid"/>
         <column
             insertable="true"
             name="gid"
@@ -620,7 +620,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/plraum"/>
+            href="citizen.ecore#//Planungsraum/plraum"/>
         <column
             insertable="true"
             name="plraum"
@@ -635,7 +635,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/the_geom"/>
+            href="citizen.ecore#//Planungsraum/the_geom"/>
         <column
             insertable="true"
             name="the_geom"
@@ -650,7 +650,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/plraum_nr"/>
+            href="citizen.ecore#//Planungsraum/plraum_nr"/>
         <column
             insertable="true"
             name="plraum_nr"
@@ -665,7 +665,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/uuid"/>
+            href="citizen.ecore#//Planungsraum/uuid"/>
         <column
             insertable="true"
             name="uuid"
@@ -680,7 +680,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//plraum/geojson"/>
+            href="citizen.ecore#//Planungsraum/geojson"/>
         <column
             insertable="true"
             name="geojson"
@@ -695,7 +695,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//plraum/town"/>
+            href="citizen.ecore#//Planungsraum/town"/>
         <cascade>
           <cascadeAll/>
         </cascade>
@@ -710,7 +710,7 @@
       </oneToOne>
     </attributes>
     <class xsi:type="ecore:EClass"
-        href="citizen.ecore#//plraum"/>
+        href="citizen.ecore#//Planungsraum"/>
   </entity>
   <entity name="einwohner">
     <table name="EINWOHNER"/>
