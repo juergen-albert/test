@@ -45,7 +45,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//Statbez/statbez_name"/>
+            href="citizen.ecore#//Statbez/name"/>
         <column
             insertable="true"
             name="statbez_name"
