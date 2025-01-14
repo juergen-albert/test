@@ -89,14 +89,16 @@
           fetch="EAGER"
           optional="true">
         <feature
-            xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//Statbez/geojson"/>
+            xsi:type="ecore:EReference"
+            href="citizen.ecore#//Statbez/geojsonObject"/>
         <column
             insertable="true"
             name="geojson"
             nullable="true"
             unique="true"
             updatable="true"/>
+        <convert
+            converter="geojson"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -109,6 +111,21 @@
         <column
             insertable="true"
             name="plraum"
+            nullable="true"
+            unique="true"
+            updatable="true"/>
+      </basic>
+      <basic
+          access="PROPERTY"
+          name="geojson"
+          fetch="EAGER"
+          optional="true">
+        <feature
+            xsi:type="ecore:EAttribute"
+            href="citizen.ecore#//Town/geojson"/>
+        <column
+            insertable="true"
+            name="geojson"
             nullable="true"
             unique="true"
             updatable="true"/>
