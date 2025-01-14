@@ -67,6 +67,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="uuid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="geojson" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="plraum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="geojsonObject" eType="ecore:EClass ../org.eclipse.sensinact.gateway.core.geo-json.model/model/geojson.ecore#//GeoJsonObject"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Town">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
