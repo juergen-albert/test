@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bum:Baum2 xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bum="http://dabum4" xsi:schemaLocation="http://dabum4 ../My.ecore" id="sadasdasdasdsdas" toDelete="true"/>
+<bum:Baum2 xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:bum="http://dabum4"
+    xsi:schemaLocation="http://dabum4 ../My.ecore"
+    id="213321"
+    toDelete="true"/>
