@@ -115,21 +115,6 @@
             unique="true"
             updatable="true"/>
       </basic>
-      <basic
-          access="PROPERTY"
-          name="geojson"
-          fetch="EAGER"
-          optional="true">
-        <feature
-            xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//Town/geojson"/>
-        <column
-            insertable="true"
-            name="geojson"
-            nullable="true"
-            unique="true"
-            updatable="true"/>
-      </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
         href="citizen.ecore#//Statbez"/>
