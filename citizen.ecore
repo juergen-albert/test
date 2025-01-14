@@ -49,7 +49,7 @@
         iD="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Planungsraum">
+  <eClassifiers xsi:type="ecore:EClass" name="Planungraum">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="gid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         iD="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="plraum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
