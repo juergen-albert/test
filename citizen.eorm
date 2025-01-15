@@ -89,16 +89,14 @@
           fetch="EAGER"
           optional="true">
         <feature
-            xsi:type="ecore:EReference"
-            href="citizen.ecore#//Statbez/geojsonO"/>
+            xsi:type="ecore:EAttribute"
+            href="citizen.ecore#//Town/geojson"/>
         <column
             insertable="true"
             name="geojson"
             nullable="true"
             unique="true"
             updatable="true"/>
-        <convert
-            converter="geojson"/>
       </basic>
       <basic
           access="PROPERTY"
