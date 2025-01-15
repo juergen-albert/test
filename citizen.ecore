@@ -5,7 +5,7 @@
     <details key="value" value="1.0"/>
   </eAnnotations>
   <eAnnotations source="properties">
-    <details key="Rest" value="true"/>
+    <details key="Rest" value="false"/>
     <details key="repo.ref.target" value="(repo_id=jpa)"/>
     <details key="GraphQL" value="true"/>
   </eAnnotations>
