@@ -90,7 +90,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//Town/geojson"/>
+            href="citizen.ecore#//Statbez/geojson"/>
         <column
             insertable="true"
             name="geojson"
