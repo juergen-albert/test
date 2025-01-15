@@ -3,6 +3,7 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="derbaum" nsURI="http://dabum" nsPrefix="bum">
   <eAnnotations source="properties">
     <details key="Rest" value="false"/>
+    <details key="GraphQL" value="true"/>
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="Baum2">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
