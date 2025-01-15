@@ -7,7 +7,7 @@
   <eAnnotations source="properties">
     <details key="Rest" value="false"/>
     <details key="repo.ref.target" value="(repo_id=jpa)"/>
-    <details key="GraphQL" value="true"/>
+    <details key="GraphQL" value="false"/>
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="AgeGroups">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Age" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
