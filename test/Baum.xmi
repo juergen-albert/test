@@ -5,4 +5,6 @@
     xmlns:bum="http://dabum"
     xsi:schemaLocation="http://dabum ../My.ecore"
     id="21332"
-    toDelete="true"/>
+    toDelete="true">
+  <stamm/>
+</bum:Baum2>
