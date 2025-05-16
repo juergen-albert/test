@@ -32,7 +32,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="H9_Order" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="einwohner">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="JAHR" eType="#//Year" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="JAHR2" eType="#//Year"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="statbez" eType="#//Statbez"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="KER_GESCH" eType="#//gender"
@@ -67,7 +68,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="uuid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="geojson" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="plraum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="geojsonO" eType="ecore:EClass https://geojson.org/model/2016#//GeoJsonObject"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="geojsonO" eType="ecore:EClass ../org.eclipse.sensinact.gateway.core.geo-json.model/model/geojson.ecore#//Geometry"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="test2" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         defaultValueLiteral="Test"/>

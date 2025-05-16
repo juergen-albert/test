@@ -20,8 +20,8 @@
             insertable="true"
             name="gid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -35,8 +35,8 @@
             insertable="true"
             name="gid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -50,8 +50,8 @@
             insertable="true"
             name="statbez_name"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -65,8 +65,8 @@
             insertable="true"
             name="the_geom"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -80,8 +80,8 @@
             insertable="true"
             name="uuid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -95,8 +95,8 @@
             insertable="true"
             name="geojson"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
         <convert
             converter="geojson"/>
       </basic>
@@ -112,8 +112,8 @@
             insertable="true"
             name="plraum"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
@@ -131,8 +131,8 @@
             insertable="true"
             name="id"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -146,8 +146,8 @@
             insertable="true"
             name="id"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -161,8 +161,8 @@
             insertable="true"
             name="name"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -176,8 +176,8 @@
             insertable="true"
             name="geojson"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
@@ -195,8 +195,8 @@
             insertable="true"
             name="YYEAR"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -210,8 +210,8 @@
             insertable="true"
             name="YYEAR"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -225,8 +225,8 @@
             insertable="true"
             name="ordinal"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
@@ -244,8 +244,8 @@
             insertable="true"
             name="Age"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -259,8 +259,8 @@
             insertable="true"
             name="Age"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -274,8 +274,8 @@
             insertable="true"
             name="H1"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -289,8 +289,8 @@
             insertable="true"
             name="H1_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -304,8 +304,8 @@
             insertable="true"
             name="H2"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -319,8 +319,8 @@
             insertable="true"
             name="H2_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -334,8 +334,8 @@
             insertable="true"
             name="H3"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -349,8 +349,8 @@
             insertable="true"
             name="H3_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -364,8 +364,8 @@
             insertable="true"
             name="H4"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -379,8 +379,8 @@
             insertable="true"
             name="H4_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -394,8 +394,8 @@
             insertable="true"
             name="H5"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -409,8 +409,8 @@
             insertable="true"
             name="H5_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -424,8 +424,8 @@
             insertable="true"
             name="H6"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -439,8 +439,8 @@
             insertable="true"
             name="H6_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -454,8 +454,8 @@
             insertable="true"
             name="H7"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -469,8 +469,8 @@
             insertable="true"
             name="H7_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -484,8 +484,8 @@
             insertable="true"
             name="H8"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -499,8 +499,8 @@
             insertable="true"
             name="H8_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -514,8 +514,8 @@
             insertable="true"
             name="H9"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -529,8 +529,8 @@
             insertable="true"
             name="H9_Order"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
@@ -548,8 +548,8 @@
             insertable="true"
             name="gkey"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -563,8 +563,8 @@
             insertable="true"
             name="gkey"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -578,8 +578,8 @@
             insertable="true"
             name="name"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
     </attributes>
     <class xsi:type="ecore:EClass"
@@ -597,8 +597,8 @@
             insertable="true"
             name="gid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -612,8 +612,8 @@
             insertable="true"
             name="gid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -627,8 +627,8 @@
             insertable="true"
             name="plraum"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -642,8 +642,8 @@
             insertable="true"
             name="the_geom"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -657,8 +657,8 @@
             insertable="true"
             name="plraum_nr"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -672,8 +672,8 @@
             insertable="true"
             name="uuid"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -687,8 +687,8 @@
             insertable="true"
             name="geojson"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <oneToOne
           access="PROPERTY"
@@ -726,8 +726,8 @@
             insertable="true"
             name="id"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </id>
       <basic
           access="PROPERTY"
@@ -741,8 +741,8 @@
             insertable="true"
             name="Anzahl"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -756,8 +756,8 @@
             insertable="true"
             name="GEOJSON"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <basic
           access="PROPERTY"
@@ -771,8 +771,8 @@
             insertable="true"
             name="id"
             nullable="true"
-            unique="true"
-            updatable="true"/>
+            updatable="true"
+            unique="true"/>
       </basic>
       <oneToOne
           access="PROPERTY"
