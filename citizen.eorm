@@ -7,6 +7,7 @@
     xmlns:eorm="https://eclipse.org/fennec/persistence/eorm/1.0.0"
     package="citizen.ecore"
     schema="CITIZEN"
+    version="3.2"
     name="citizen">
   <entity name="statbez">
     <table name="STATBEZ"/>
