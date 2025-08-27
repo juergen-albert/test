@@ -167,7 +167,7 @@
       </basic>
       <basic
           access="PROPERTY"
-          name="geojson"
+          name="geojson2"
           fetch="EAGER"
           optional="true">
         <feature
