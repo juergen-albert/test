@@ -7,7 +7,7 @@
     xmlns:eorm="https://eclipse.org/fennec/persistence/eorm/1.0.0"
     package="citizen.ecore"
     schema="CITIZEN"
-    version="3.2"
+    version="3.3"
     name="citizen">
   <entity name="statbez">
     <table name="STATBEZ"/>
@@ -722,7 +722,7 @@
           name="id">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//einwohner/id"/>
+            href="citizen.ecore#//Einwohner/id"/>
         <column
             insertable="true"
             name="id"
@@ -737,7 +737,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//einwohner/Anzahl"/>
+            href="citizen.ecore#//Einwohner/Anzahl"/>
         <column
             insertable="true"
             name="Anzahl"
@@ -752,7 +752,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//einwohner/GEOJSON"/>
+            href="citizen.ecore#//Einwohner/GEOJSON"/>
         <column
             insertable="true"
             name="GEOJSON"
@@ -767,7 +767,7 @@
           optional="true">
         <feature
             xsi:type="ecore:EAttribute"
-            href="citizen.ecore#//einwohner/id"/>
+            href="citizen.ecore#//Einwohner/id"/>
         <column
             insertable="true"
             name="id"
@@ -782,7 +782,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//einwohner/JAHR"/>
+            href="citizen.ecore#//Einwohner/JAHR"/>
         <cascade>
           <cascadeRemove/>
           <cascadeRefresh/>
@@ -804,7 +804,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//einwohner/statbez"/>
+            href="citizen.ecore#//Einwohner/statbez"/>
         <cascade>
           <cascadeRemove/>
           <cascadeRefresh/>
@@ -826,7 +826,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//einwohner/KER_GESCH"/>
+            href="citizen.ecore#//Einwohner/KER_GESCH"/>
         <cascade>
           <cascadeRemove/>
           <cascadeRefresh/>
@@ -848,7 +848,7 @@
           orphanRemoval="true">
         <feature
             xsi:type="ecore:EReference"
-            href="citizen.ecore#//einwohner/AGE"/>
+            href="citizen.ecore#//Einwohner/AGE"/>
         <cascade>
           <cascadeRemove/>
           <cascadeRefresh/>
@@ -865,6 +865,6 @@
       </oneToOne>
     </attributes>
     <class xsi:type="ecore:EClass"
-        href="citizen.ecore#//einwohner"/>
+        href="citizen.ecore#//Einwohner"/>
   </entity>
 </eorm:EntityMappings>
