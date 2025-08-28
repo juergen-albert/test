@@ -31,7 +31,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="H9" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="H9_Order" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Einwohner">
+  <eClassifiers xsi:type="ecore:EClass" name="einwohner">
     <eStructuralFeatures xsi:type="ecore:EReference" name="JAHR" eType="#//Year" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="statbez" eType="#//Statbez"
         containment="true"/>
